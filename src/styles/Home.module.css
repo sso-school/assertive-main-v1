@@ -13,8 +13,6 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	
-	margin: 0 0 400px 0;
 }
 @supports(height: 100dvh){
 	.top{
@@ -24,7 +22,7 @@
 
 .topDec{
 	position: relative;
-	right: 300px;
+	right: 20%;
 
 	display: flex;
 	flex-direction: column;
@@ -47,7 +45,7 @@
 	font-weight: 600;
 	font-size: 90px;
 	position: relative;
-	left: 30px;
+	left: 10%;
 }
 
 .topText{
@@ -55,5 +53,57 @@
 	font-size: 18px;
 	max-width: 530px;
 	position: relative;
-	left: 60px;
+	left: 20%;
+}
+
+.blog{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 400px 0;
+	gap: 30px;
+}
+
+.blogTitle{
+	font-size: 32px;
+	font-weight: 600;
+	color: #508260;
+}
+
+.fut{
+	color: #000;
+	font-size: 30px;
+	font-weight: 600;
+	width: 100%;
+	text-align: center;
+}
+
+.blogtop{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+}
+.blogtopright{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+}
+.blogtoprightinner{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+}
+.bloginner{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
 }
