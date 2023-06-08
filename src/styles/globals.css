@@ -9,7 +9,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  color: #2B274B;
+  color: #fff;
   -webkit-tap-highlight-color : transparent;
   word-break: keep-all;
 }
@@ -19,8 +19,13 @@ body {
   max-width: 100%;
   height: 100%;
   overflow-x: hidden;
-  background: #FAFAFF;
-  /* background: #fFF; */
+
+  /* background: url(https://cdn.aitimes.kr/news/photo/202303/27617_41603_044.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+
+  background: #FFFFFF;
 }
 
 div {

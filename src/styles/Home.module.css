@@ -1,0 +1,59 @@
+.top{
+	background: url(/background.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	width: 100%;
+	height: 100vh;
+
+	border-radius: 0 0 800px 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	margin: 0 0 400px 0;
+}
+@supports(height: 100dvh){
+	.top{
+		height: 100dvh;
+	}
+}
+
+.topDec{
+	position: relative;
+	right: 300px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 20px;
+	
+}
+
+.topH1, .topH2, .topText{
+	color: #fff;
+}
+
+.topH2{
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.topH1{
+	font-weight: 600;
+	font-size: 90px;
+	position: relative;
+	left: 30px;
+}
+
+.topText{
+	font-weight: 400;
+	font-size: 18px;
+	max-width: 530px;
+	position: relative;
+	left: 60px;
+}

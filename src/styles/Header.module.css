@@ -1,0 +1,25 @@
+.box{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 55px;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+
+	padding: 20px 0px;
+	background-color: #ffffff80;
+	backdrop-filter: blur(20px);
+}
+
+.button{
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+	padding: 0 10px;
+	color: #000;
+}
